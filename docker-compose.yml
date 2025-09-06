@@ -29,7 +29,7 @@ services:
     ports:
       - 81:81
       - 4433:4433
-      - 443:443/udp
+      - 4433:4433/udp
       - 7080:7080
     restart: always
     environment:
